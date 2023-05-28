@@ -1,0 +1,52 @@
+.register
+{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(255, 255, 255,0.5),
+    rgba(255, 255, 255,0.5)),
+    url("https://media.istockphoto.com/id/1367252766/photo/woman-at-home-checking-her-bank-statements-online.jpg?s=612x612&w=0&k=20&c=6_R8dYKEHbu_btFzCFm9mVsMz1fVJ48B69ZIE_-RRhk=");
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+
+}
+.registerButton
+{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:aquamarine;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.registerRegisterButton
+{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    background-color:rgb(118, 193, 118);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}

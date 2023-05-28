@@ -1,0 +1,18 @@
+import "./login.css"
+import { Link } from "react-router-dom/cjs/react-router-dom.min"
+
+export default function Login() {
+  return (
+    <div className="login">
+        <span className="loginTitle">Login</span>
+        <form className="loginForm">
+            <label>Email</label>
+            <input className="loginInput" type="text" placeholder="Enter UserName "/>
+            <label>password</label>
+           <input className="loginInput" type="password" placeholder="Enter Password"/>
+           <button className="loginButton">Login</button> 
+        </form>
+       <button className="loginRegisterButton"><Link className="Link" to="/register">Register</Link></button>
+    </div>
+  )
+}
